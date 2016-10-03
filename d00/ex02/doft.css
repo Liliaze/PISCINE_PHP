@@ -1,0 +1,177 @@
+body
+{
+	background-color: rgb(80, 80, 80);
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+header, article, aside
+{
+	border: 1px rgb(73, 73, 73) solid;
+	border-radius: 10px;
+	background-color: rgb(144, 144, 144);
+	box-shadow: 6px 6px 6px black;
+}
+header
+{
+	display: flex;
+	flex-direction: rows;
+	justify-content: space-between;
+	height: 15%;
+	width: 75%;
+	margin: auto;
+}
+#title
+{
+	display: flex;
+	width: 38%;
+	height: 100%;
+	padding: 9px;
+}
+.tools
+{
+	position: absolute;
+	right: 13.5%;
+	height: 2%;
+	width: 1.2%;
+}
+#reload
+{
+	top: 2%;
+}
+#croix
+{
+	top: 9%;
+}
+#loupe
+{
+	width: 13%;
+	height: 13%;
+	top: 4%;
+	right: 15%;
+}
+section
+{
+	display: flex;
+	flex-direction: row;
+	padding-left: 2.5%;
+	height: 40%;
+	width: 76%;
+	margin: auto;
+}
+article
+{
+	display: flex;
+	width: 70%;
+	height: 100%;
+	padding: 9px;
+	margin: 1%;
+}
+article img
+{
+	width: 100%;
+	height: 100%;
+}
+#ikea
+{
+	position: absolute;
+	width: 8%;
+	height: 22%;
+	left: 40%;
+	bottom: 25%;
+}
+#apple
+{
+	position: absolute;
+	width: 10%;
+	height: 15%;
+	left: 65%;
+	bottom: 32%;
+}
+aside
+{
+	display: flex;
+	flex-direction: column;
+	width: 10%;
+	height: 100%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin: 1%;
+}
+aside img
+{
+	display: flex;
+	width: 50%;
+	height: 15%;
+	margin-bottom: 1px;
+	margin-top: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#chat
+{
+	margin-bottom: 15px;
+}
+#brick
+{
+	background: url("ressources/brick.jpg");
+	background-repeat: repeat-x|repeat-y;
+	width: 90%;
+	height: 60px;
+	padding: 1%;
+	margin-bottom: 140px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+#oeil
+{
+	border: 4px solid red;
+	border-radius: 5px;
+}
+#cadre_vert
+{
+	position: absolute;
+	left: 10%;
+	top: 70%;
+	width: 26%;
+	height: 17%;
+	border: 1px rgb(77, 52, 73) ridge;
+	border-radius: 10px;
+	background-color: rgb(140, 253, 142);
+	box-shadow: 6px 6px 6px black;
+	padding-left: 7px;
+	font-style: normal;
+	font-family: arial serif;
+	font-size: 100%;
+}
+#ordi
+{
+	text-shadow: 2px 2px 3px rgb(188, 117, 78);
+}
+#champs
+{
+	width: 75%;
+}
+#button
+{
+	border: 1px groove black;
+	border-radius: 2px;
+	font-size: 0.6em;
+	width: 15%;
+	font-style: normal;
+	background: rgb(222, 222, 222);
+	border-radius: 2px;
+	font-size: 0.7em;
+	width: 15%;
+	font-family: arial serif;
+	background: rgb(222, 222, 222);
+}
+em
+{
+	font-size: 1.8em;
+	font-style: normal;
+}
+#italic
+{
+	font-style: italic;
+}
