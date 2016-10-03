@@ -1,0 +1,130 @@
+#portrait
+{
+	width: 10%;
+	height: auto;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	margin: auto;
+}
+h1
+{
+	font-size: 4vw;
+	text-align: center;
+	color: blue;
+	margin-bottom: 4%;
+}
+#first
+{
+	width: 80%;
+	height: 50%;
+	padding: 1px;
+	border-collapse: collapse;
+	caption-side: top;
+	margin: auto;
+}
+#two
+{
+	width: 80%;
+	height: 30%;
+	padding: 1px;
+	border-collapse: collapse;
+	caption-side: top;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: 2%;
+}
+tr, th
+{
+	width: 100%;
+	height: auto;
+	display: flex;
+	padding: 1px;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+}
+td, .th1
+{
+	display: flex;
+	flex-direction: column;
+	padding: 1px;
+	width: 90%;
+	font-size: 1vw;
+	height: auto;
+	margin: auto;
+}
+.th2
+{
+	width: 20%;
+	padding: 5px;
+	font-size: 1vw;
+	text-align: right;
+}
+caption
+{
+	width: 80%;
+	height: auto;
+	padding: 1px;
+	font-size: 2vw;
+	color: #5416B4;
+	font-style:	bold;
+	text-decoration: underline;
+	margin: auto;
+}
+.name, .number, .poid
+{
+	width: 90%;
+	height: auto;
+	background-color: rgba(205,247,247,17);
+	padding-left: 2%;
+	padding-right: 2%;
+	border-left: 1px #00B5EC groove;
+	border-right: 1px #00B5EC groove;
+}
+.name
+{
+	text-align: center;
+	font-size: 1.5vw;
+	font-style:	bold;
+
+}
+.poid
+{
+	color: green;
+	border-top: 1px #00B5EC groove;
+	padding-top: 5px;
+	text-align: right;
+	font-size: 0.8vw;
+}
+.number
+{
+	color: red;
+	border-bottom: 1px #00B5EC groove;
+	padding-bottom: 5px;
+	text-align: left;
+	font-size: 0.8vw;
+}
+.vide
+{
+	width: 90%;
+	height: auto;
+	padding: 5px;
+	border: none;
+}
+footer
+{
+	border-top: 3px blue groove;
+	padding-top: 5px;
+	margin-top: 10px;
+	font-size: 1vw;
+	font-style:	italic;
+	text-align: center;
+}
+body
+{
+	width: 100%;
+	height: auto;
+	background-image: url(http://templatemints.com/rttheme13/images/background_images/abstract_background7.jpg);
+}
